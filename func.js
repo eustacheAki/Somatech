@@ -66,3 +66,37 @@ const wordblank=(name,number,school,address)=>
 // let name= 'akimana';
 // let lastname=' eustache'
 // console.log(name[0]='k'.concat(lastname));
+
+//factorial
+
+//........................factorial.................................
+const Factorial=(num)=>{
+answer=1;
+if(num===0||num===1){
+   return answer; 
+}else{
+for(let i=num;i>=1;i--){
+  answer=answer*i;  
+}
+return answer;
+}
+}
+// console.log(Factorial(6));
+
+//recursion function
+
+function factorial(num)
+{
+if(num<=0)
+{
+return 1;
+}
+else
+{
+return (num * factorial(num-1) )
+}
+}
+// console.log(factorial(6))
+(function(){
+    console.log('hello')
+})();
