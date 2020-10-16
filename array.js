@@ -16,12 +16,12 @@
 // console.log(arr3)
 // var points = new Array();     // Bad way to create the empty array, new keyword complicate the code
 // var points = [];              // Good way to create the empty array
-let arr1=['eussy',2,3];
-let arr2=[2,3,4];
-arr2[0]=5;
-// let a=5;
-// arr2.push('eussy')//add an element
-arr=[...arr1,...arr2];// add together two arrays
+// let arr1=['eussy',2,3];
+// let arr2=[2,3,4];
+// arr2[0]=5;
+// // let a=5;
+// // arr2.push('eussy')//add an element
+// arr=[...arr1,...arr2];// add together two arrays
 // console.log(arr1.concat(arr2)) to concatinate two or more arrays
 // delete arr[0];//deleting element
 // console.log(arr);
@@ -55,11 +55,11 @@ arr=[...arr1,...arr2];// add together two arrays
 // console.log(sum=a.reduce((acc,value)=> acc+value));
 // console.log(new Date(dateString));
 let a=[1,2,3,4,5,6,7,8,9,10,11,12];
-let sum=0;
-for(let i=0;i<a.length;i++){
-sum=sum+a[i];
-console.log(sum);
-}
+// let sum=0;
+// for(let i=0;i<a.length;i++){
+// sum=sum+a[i];
+// console.log(sum);
+// }
 
 // let b=2;
 // for(i=0;i<=a.length;i++){
@@ -71,11 +71,11 @@ console.log(sum);
 // console.log(c);
 // a.pop()
 // console.log(a);
-// let result=0;
-// const number=(total, numb)=> {
-//     result=total+numb;
-//     return result;
+let result=0;
+const number=(total, numb)=> {
+    result=total+numb;
+    return result;
     
-// }
-// console.log(a.reduce(number));
+}
+console.log(a.reduce(number));
 

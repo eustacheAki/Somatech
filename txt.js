@@ -71,7 +71,62 @@ names.lname='munguzi';
          }
      }  
 let pers=new perso('matungo','mur',30);
-console.log(pers.f1());
+// console.log(pers.f1());
+
+//break and continue statement
+
+var num=0;
+var count=0;
+
+for(var num=0;num<=20;num++){
+    if(num%2==0){
+        continue
+        }
+        count++
+    }
+// console.log(count);
 
 
+class muntu {
+    constructor(nam){
+        this.nam=nam;
+    }
+    toString(){
+        return ('the name of the person is:'+' '+ this.num)
+    }
+}
+class student extends muntu {
+    constructor (nam, id){
+        super(nam);
+        this.id=id;
+    }
+    toString(){
+        return (super.toString()+ 'the student Id is:'+ this.id);
+    }
+}
+let student1=new student('muringa',2);
+// console.log(student1);
+let str = '';
 
+loo1:
+for (let i = 0; i < 5; i++) {
+  if (i === 1) {
+    continue loo1;
+  }
+  str = str + i;
+}
+
+// console.log(str);
+
+function add(a, b = 1) {
+    return a+b;
+    }
+    // console.log(add(undefined))
+
+
+const prime=(number)=>{
+for(let i=1;i<=number;i++){
+    return number%i;
+}
+}
+console.log(prime(6));

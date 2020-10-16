@@ -28,16 +28,29 @@
 //     }
 // };
 // console.log(person.address[1]);
-let collection={
-    2548: {
-        album:'igitende',
-        artist: 'rider',
-          trucks:[1,'rutenderi','rusake']      
-},
-    2549: {
-    album:'ngufashe',
-    artist: 'james',
-      trucks:[2,'waje','imera']      
-},
+// let collection={
+//     2548: {
+//         album:'igitende',
+//         artist: 'rider',
+//           trucks:[1,'rutenderi','rusake']      
+// },
+//     2549: {
+//     album:'ngufashe',
+//     artist: 'james',
+//       trucks:[2,'waje','imera']      
+// },
 
+// };
+const user={
+  name:'eustache',
+  email: 'eustacheeussy@gmail.com',
+  login(){
+    console.log(this.email, 'email has been login')
+  },
+  logout(){
+    console.log(this.email, 'email has logged out')
+  }
 };
+user.login();
+// const user1=new User('akimana','aki@gmail.com');
+

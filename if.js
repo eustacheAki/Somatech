@@ -153,19 +153,6 @@
 //     return count;
 // }
 // console.log(cc(6))
-//........................factorial.................................
-// const Factorial=(num)=>{
-// answer=1;
-// if(num===0||num===1){
-//    return answer; 
-// }else{
-// for(let i=num;i>=1;i--){
-//   answer=answer*i;  
-// }
-// return answer;
-// }
-// }
-// console.log(Factorial(0));
 let psed=[];
 let answer=0;
 for(let ans=1;ans<=5;ans++){
